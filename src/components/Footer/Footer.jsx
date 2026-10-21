@@ -1,18 +1,20 @@
 import s from "./Footer.module.css"
 import logo from "../../assets/logo.png"
+import { Link } from "react-router"
+import { PATH } from "../../routing/Routing"
 
 export function Footer() {
   return (
     <footer className={s.footer}>
       <div className="container">
         <div className={s.footerInner}>
-          <a href="#" className={s.logo}>
+          <Link to={PATH.Home} className={s.logo}>
             <img src={logo} alt="Импульс" />
-          </a>
+          </Link>
           <nav className={s.nav}>
-            <a href="#">Главная</a>
-            <a href="#catalog">Каталог</a>
-            <a href="#product">Корзина</a>
+            <Link to={PATH.Home}>Главная</Link>
+            <Link to={PATH.Catalog}>Каталог</Link>
+            <Link to={PATH.NotFound}>Корзина</Link>
           </nav>
         </div>
       </div>

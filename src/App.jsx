@@ -1,7 +1,6 @@
 import { Header } from "./components/Header/Header"
-import { Banner } from "./components/Banner/Banner"
-import { Subscribe } from "./components/Subscribe/Subscribe"
 import { Footer } from "./components/Footer/Footer"
+import { Routing } from "./routing/Routing"
 
 export function App() {
   return (
@@ -9,8 +8,7 @@ export function App() {
       <Header />
 
       <main>
-        <Banner />
-        <Subscribe />
+        <Routing />
       </main>
 
       <Footer />

@@ -1,4 +1,7 @@
-.subscribePink { background: #ff3d6e; padding: 0; }
+.subscribePink {
+  background: #ff3d6e;
+  padding: 0;
+}
 
 .subscribePurple {
   background: #1e2a45;
@@ -62,7 +65,9 @@
   cursor: pointer;
 }
 
-.subscribeForm button:hover { background: #e62f5d; }
+.subscribeForm button:hover {
+  background: #e62f5d;
+}
 
 .subscribeImage {
   flex: 0 0 auto;

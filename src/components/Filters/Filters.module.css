@@ -1,0 +1,71 @@
+.categories {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.category {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  background: #EEEEEE;
+  font-family: 'MontM', Arial, sans-serif;
+  font-size: 14px;
+  color: #1e2a45;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.category:hover {
+  background: #e0e0e0;
+}
+
+.active {
+  background: #ff3d6e;
+  color: #fff;
+}
+
+.active:hover {
+  background: #e62f5d;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.search {
+  flex: 1;
+  min-width: 200px;
+}
+
+.search input,
+.priceInput,
+.sort {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  background: #EEEEEE;
+  border-radius: 999px;
+  font-family: 'MontR', Arial, sans-serif;
+  font-size: 14px;
+  color: #1e2a45;
+  outline: none;
+}
+
+.priceInput {
+  width: 130px;
+}
+
+.priceDash {
+  color: #1e2a45;
+}
+
+.sort {
+  width: 200px;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.catalog {
+  padding: 40px 0 80px;
+}
+
+.pageTitle {
+  font-family: 'Bebas', Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  color: #1e2a45;
+}

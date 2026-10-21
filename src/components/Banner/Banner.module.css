@@ -1,4 +1,6 @@
-.banner { padding: 60px 0; }
+.banner {
+  padding: 60px 0;
+}
 
 .bannerInner {
   display: flex;
@@ -6,7 +8,9 @@
   gap: 40px;
 }
 
-.bannerText { flex: 1; }
+.bannerText {
+  flex: 1;
+}
 
 .bannerText h1 {
   font-family: 'Bebas', Arial, sans-serif;
@@ -18,7 +22,9 @@
   letter-spacing: 1px;
 }
 
-.bannerText h1 span { color: #ff3d6e; }
+.bannerText h1 span {
+  color: #ff3d6e;
+}
 
 .btn {
   display: inline-flex;
@@ -35,7 +41,9 @@
   cursor: pointer;
 }
 
-.btn:hover { background: #e62f5d; }
+.btn:hover {
+  background: #e62f5d;
+}
 
 .bannerImage img {
   width: 518px;

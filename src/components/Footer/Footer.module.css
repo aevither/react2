@@ -1,4 +1,7 @@
-.footer { background: #1e2a45; padding: 32px 0; }
+.footer {
+  background: #1e2a45;
+  padding: 32px 0;
+}
 
 .footerInner {
   display: flex;
@@ -6,7 +9,9 @@
   align-items: center;
 }
 
-.logo img { display: block; }
+.logo img {
+  display: block;
+}
 
 .nav {
   display: flex;
@@ -25,4 +30,6 @@
   border-radius: 999px;
 }
 
-.nav a:hover { background: #f0f0f0; }
+.nav a:hover {
+  background: #f0f0f0;
+}
