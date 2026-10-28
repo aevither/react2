@@ -1,6 +1,4 @@
 import s from './PageNotFound.module.css'
-import { Link } from 'react-router'
-import { PATH } from '../../routing/Routing'
 
 export function PageNotFound() {
     return (

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { HomePage } from '../pages/HomePage';
+import { HomePage } from '../pages/HomePage/HomePage';
 import { CatalogPage } from '../pages/CatalogPage/CatalogPage';
 import { ProductPage } from '../pages/ProductPage/ProductPage';
 import { PageNotFound } from '../pages/PageNotFound/PageNotFound';
@@ -7,7 +7,7 @@ import { PageNotFound } from '../pages/PageNotFound/PageNotFound';
 export const PATH = {
     Home: '/',
     Catalog: '/catalog',
-    Product: '/product',
+    Product: '/product/:id',
     NotFound: '*'
 }
 
